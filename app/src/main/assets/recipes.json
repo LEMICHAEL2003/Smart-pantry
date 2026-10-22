@@ -1,0 +1,432 @@
+[
+  {
+    "name": "Scrambled eggs",
+    "ingredients": [
+      {
+        "name": "egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "butter",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": "1. Melt butter in a non-stick pan over low heat.\n2. Beat eggs, add to the pan and stir gently until fully set.\n3. Serve straight away."
+  },
+  {
+    "name": "Cheese omelette",
+    "ingredients": [
+      {
+        "name": "egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "cheese",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": "1. Beat eggs and grate cheese.\n2. Melt butter in a pan on low heat and add eggs.\n3. When almost set, add cheese, fold and cook until egg is fully set."
+  },
+  {
+    "name": "Tomato toast",
+    "ingredients": [
+      {
+        "name": "bread",
+        "quantity": 2,
+        "unit": "slice"
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 5,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Toast bread.\n2. Slice tomato and place on top.\n3. Drizzle with the measured olive oil."
+  },
+  {
+    "name": "Cheese toast",
+    "ingredients": [
+      {
+        "name": "bread",
+        "quantity": 2,
+        "unit": "slice"
+      },
+      {
+        "name": "cheese",
+        "quantity": 40,
+        "unit": "g"
+      }
+    ],
+    "steps": "1. Put grated cheese on bread.\n2. Grill on a tray until cheese bubbles and bread is toasted."
+  },
+  {
+    "name": "Banana oat pancakes",
+    "ingredients": [
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "egg",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "oats",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 5,
+        "unit": "g"
+      }
+    ],
+    "steps": "1. Mash banana, beat in egg and finely ground oats.\n2. Melt butter in a non-stick pan over medium-low heat.\n3. Cook small pancakes on both sides until fully set."
+  },
+  {
+    "name": "Milk porridge",
+    "ingredients": [
+      {
+        "name": "oats",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 250,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Put oats and milk in a saucepan.\n2. Simmer gently, stirring for about 5 minutes until thick and soft."
+  },
+  {
+    "name": "Banana porridge",
+    "ingredients": [
+      {
+        "name": "oats",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "pcs"
+      }
+    ],
+    "steps": "1. Simmer oats and milk, stirring until soft.\n2. Mash banana and stir through the warm porridge."
+  },
+  {
+    "name": "Apple porridge",
+    "ingredients": [
+      {
+        "name": "oats",
+        "quantity": 50,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "quantity": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "apple",
+        "quantity": 1,
+        "unit": "pcs"
+      }
+    ],
+    "steps": "1. Core and finely chop apple.\n2. Simmer apple, oats and milk together for 8-10 minutes, stirring until tender."
+  },
+  {
+    "name": "Tomato egg skillet",
+    "ingredients": [
+      {
+        "name": "tomato",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Chop tomatoes. Warm oil in a pan and soften tomatoes for 8 minutes.\n2. Make two wells and add eggs.\n3. Cover and cook on low until eggs are fully set."
+  },
+  {
+    "name": "Carrot omelette",
+    "ingredients": [
+      {
+        "name": "carrot",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 5,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Finely grate carrot. Soften in the measured oil over low heat.\n2. Beat and pour in eggs.\n3. Cook, turning carefully, until fully set."
+  },
+  {
+    "name": "Buttery potatoes",
+    "ingredients": [
+      {
+        "name": "potato",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 20,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "quantity": 500,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Peel and dice potatoes.\n2. Boil in the measured water until tender, then drain carefully.\n3. Toss with butter and serve."
+  },
+  {
+    "name": "Potato and onion hash",
+    "ingredients": [
+      {
+        "name": "potato",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 15,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Dice potatoes into small pieces and thinly slice onion.\n2. Add oil and vegetables to a non-stick pan. Cover and cook on low for 20 minutes, stirring often.\n3. Uncover and cook until potatoes are tender and browned."
+  },
+  {
+    "name": "Carrot soup",
+    "ingredients": [
+      {
+        "name": "carrot",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "water",
+        "quantity": 500,
+        "unit": "ml"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Chop carrot and onion. Soften onion in oil.\n2. Add carrot and water; simmer until carrot is tender.\n3. Mash or blend carefully and reheat until hot."
+  },
+  {
+    "name": "Tomato pasta",
+    "ingredients": [
+      {
+        "name": "pasta",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      },
+      {
+        "name": "water",
+        "quantity": 1000,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Boil pasta in measured water until cooked. Reserve a little cooking water, then drain.\n2. Chop and soften tomatoes in oil in another pan.\n3. Toss pasta with tomatoes, adding reserved water if needed."
+  },
+  {
+    "name": "Cheesy pasta",
+    "ingredients": [
+      {
+        "name": "pasta",
+        "quantity": 100,
+        "unit": "g"
+      },
+      {
+        "name": "cheese",
+        "quantity": 40,
+        "unit": "g"
+      },
+      {
+        "name": "butter",
+        "quantity": 10,
+        "unit": "g"
+      },
+      {
+        "name": "water",
+        "quantity": 1000,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Boil pasta in water until tender. Reserve a little cooking water, then drain.\n2. Stir butter and grated cheese into hot pasta.\n3. Add a splash of reserved water and stir until coated."
+  },
+  {
+    "name": "Chickpea tomato salad",
+    "ingredients": [
+      {
+        "name": "chickpea",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Use cooked, drained chickpeas; the listed weight is after cooking.\n2. Chop tomato and combine with chickpeas.\n3. Toss with olive oil. Serve immediately."
+  },
+  {
+    "name": "Warm bean skillet",
+    "ingredients": [
+      {
+        "name": "bean",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "onion",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Use cooked, drained beans. Chop tomato and onion.\n2. Soften onion in oil, add tomato and cook for 8 minutes.\n3. Add beans and heat until steaming throughout."
+  },
+  {
+    "name": "Banana milk drink",
+    "ingredients": [
+      {
+        "name": "banana",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "milk",
+        "quantity": 200,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Peel and slice banana.\n2. Blend with milk until smooth and drink immediately."
+  },
+  {
+    "name": "French toast",
+    "ingredients": [
+      {
+        "name": "bread",
+        "quantity": 2,
+        "unit": "slice"
+      },
+      {
+        "name": "egg",
+        "quantity": 1,
+        "unit": "pcs"
+      },
+      {
+        "name": "milk",
+        "quantity": 50,
+        "unit": "ml"
+      },
+      {
+        "name": "butter",
+        "quantity": 10,
+        "unit": "g"
+      }
+    ],
+    "steps": "1. Beat egg and milk. Dip each bread slice into the mixture.\n2. Melt butter in a pan over medium-low heat.\n3. Cook bread on both sides until golden and egg is fully set."
+  },
+  {
+    "name": "Spinach eggs",
+    "ingredients": [
+      {
+        "name": "spinach",
+        "quantity": 80,
+        "unit": "g"
+      },
+      {
+        "name": "egg",
+        "quantity": 2,
+        "unit": "pcs"
+      },
+      {
+        "name": "olive oil",
+        "quantity": 10,
+        "unit": "ml"
+      }
+    ],
+    "steps": "1. Wilt spinach in measured oil over medium-low heat.\n2. Beat eggs and stir into spinach.\n3. Cook until eggs are fully set."
+  }
+]
