@@ -1,0 +1,4 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="16dp" android:minHeight="72dp">
+    <TextView android:id="@+id/row_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="18sp" android:textStyle="bold" android:textColor="#244A35" />
+    <TextView android:id="@+id/row_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="14sp" android:textColor="#4F5950" android:paddingTop="4dp" />
+</LinearLayout>
