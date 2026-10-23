@@ -1,13 +1,28 @@
-# Latest verification on 22 October 2026
+# Latest verification on 23 October 2026
 
 - All 18 matching tests passed again using javac and JUnit 4.13.2.
 - Android resources were compiled and linked with aapt2 against API 35.
 - Production Java compiled, D8 generated classes.dex, zipalign aligned the package, and apksigner signed and verified SmartPantry-debug.apk.
 - APK inspection confirms package com.example.smartpantry, minimum API 26, target API 34 and PantryActivity as launcher.
-- Runtime testing remains blocked by the emulator acceleration setup. No app screenshots or video have been captured.
+- Runtime testing succeeded on the Android emulator: ten UI checks passed. Fourteen genuine screenshots and a silent app demonstration were captured.
 - Android Gradle Plugin assembly and lint remain unverified.
 
-The historical source checks and outstanding device checklist follow.
+## Completed emulator checks
+
+- PASS: Missing butter excludes scrambled eggs
+- PASS: Create and read two pantry records
+- PASS: All ingredients and converted quantity produce match
+- PASS: Recipe detail opens
+- PASS: 9 g butter fails 10 g requirement
+- PASS: Pantry persists after force-stop
+- PASS: Settings persist after force-stop
+- PASS: Cancelling deletion keeps edit record
+- PASS: Delete removes only butter
+- PASS: Deleting butter removes recipe suggestion
+
+Blank-name validation was also captured. Testing used one Android 17 / API 37 emulator. Rotation, large fonts, invalid dates, nonpositive quantities and older Android versions still need device coverage.
+
+The historical source checks and reusable device checklist follow.
 
 # Checks and device test guide
 
@@ -28,7 +43,7 @@ Use JDK 17, SDK Platform 35 and the supplied Gradle wrapper. Run:
 .\gradlew.bat testDebugUnitTest assembleDebug lintDebug
 ```
 
-The following checks require the running Android app and have not been completed here:
+Use the following checklist for a fuller manual pass. The completed checks are listed above; do not treat every row below as verified.
 
 | Check | Expected result |
 | --- | --- |
@@ -50,4 +65,4 @@ The following checks require the running Android app and have not been completed
 | Small phone and larger font | Form scrolls; buttons and list remain usable |
 | Back / bottom navigation | All five screens remain reachable without a crash |
 
-Capture real screenshots while doing these checks. Keep the output APK and build caches out of the final submission ZIP unless specifically requested.
+The report package includes real screenshots and the requested debug APK. Build caches are excluded.
