@@ -88,11 +88,11 @@ The small screen contents are built with LinearLayout inside a shared XML screen
 
 The actual plain Java matching classes and JUnit suite were compiled locally with Eclipse ECJ and run under Java 8: **18 tests passed**. All production Java files also passed a source compilation check against Android API 35 with a temporary resource-ID class. XML, recipe seed data and the SQL schema were checked separately. See `CHECKS.md` for details and the device checklist.
 
-On 22 October 2026 the sources and resources were also compiled with Android SDK tools to produce a signed debug APK. The APK signature was verified and the 18 JUnit tests passed again under the JDK bundled with Android Studio. A Gradle build and device execution are still unverified. The installed emulator reported a missing acceleration driver; software-mode attempts also exited. See ASSISTANCE.md for provenance and limitations.
+On 22 October 2026 the sources and resources were also compiled with Android SDK tools to produce a signed debug APK. The APK signature was verified and the 18 JUnit tests passed again under the JDK bundled with Android Studio. On 23 October 2026 the app ran on the Android emulator and passed ten UI checks covering CRUD, strict matching, recipe detail, deletion cancellation and persistence after force-stop. Fourteen actual screenshots and a silent app recording accompany the report package. A full Gradle build and lint remain unverified. See ASSISTANCE.md for provenance and limitations.
 
 ## Coursework evidence still needed
 
-This is the source-code deliverable, not the complete assignment submission. The repository above contains the project import. Actual running-app screenshots and a narrated 5–7 minute video are still needed; a report draft is supplied separately. The brief requests at least ten genuine incremental development commits. File-by-file import commits are explicitly labelled as imports and are not evidence of incremental development. No history has been fabricated here.
+This is the source-code deliverable, not the complete assignment submission. The repository above contains the project import. Actual running-app screenshots and a narrated 5â€“7 minute video are still needed; a report draft is supplied separately. The brief requests at least ten genuine incremental development commits. File-by-file import commits are explicitly labelled as imports and are not evidence of incremental development. No history has been fabricated here.
 
 Read and adapt the code, verify it on a device and follow your institution's rules on acknowledging assistance. Record your own explanations and observations. Do not claim invented development challenges or sign an inaccurate originality declaration.
 
